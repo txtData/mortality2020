@@ -75,5 +75,5 @@ was wahrscheinlich auf den momentanen Lockdown zurückzuführen ist.
 * Bevölkerung 2020: Es wurden dieselbe Zahl wie 2019 angenommen, siehe: <https://www.destatis.de/DE/Presse/Pressemitteilungen/2021/01/PD21_016_12411.html>
 
 Der Python Code für die Datenanalyse und die Erstellung der Schaubilder befindet sich 
-[hier](https://github.com/txtData/mortality/blob/main/mortality.py). 
+[hier](https://github.com/txtData/mortality2020/blob/main/mortality.py). 
 
