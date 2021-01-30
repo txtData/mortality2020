@@ -24,7 +24,6 @@ def prepare_2020_data():
             row_value = 0
         row = int(i.split('.')[1])
         array[row - 1, 2] += row_value
-    array[11, 2] = 106000  # estimating missing data for 12/2020
     for i in range(0, 12):
         array[i, 0] = 2020
         array[i, 1] = i+1
@@ -104,7 +103,7 @@ def deaths_per_month_interesting_years(df, df_pop):
     markers = [['P', 'X', '^', 'v', 'o', 'D', 'P'], ['s']]
     dashes = [[(1, 0), (1, 0), (1, 0), (1, 0), (1, 0), (1, 0), (1, 0)], [(1, 0)]]
     ax = sns.lineplot(data=df.iloc[:, -8:-1], palette="crest", markers=markers[0], dashes=dashes[0], linewidth=.1)
-    ax = sns.lineplot(data=df.iloc[:, -1:], palette="crest", markers=markers[1], dashes=dashes[1], linewidth=1.5)
+    ax = sns.lineplot(data=df.iloc[:, -1:], palette="crest", markers=markers[1], dashes=dashes[1], linewidth=1.0)
     ax.set_xticks(range(13))
     ax.set_xticklabels([''] + months + [''])
     ax.set(xlabel='', ylabel='Todesfälle pro 100,000 Einwohner pro Tag')
