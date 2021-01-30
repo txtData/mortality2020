@@ -4,6 +4,7 @@ Stand: 30.01.2021
 
 ## Jahressterblichkeit 2011-2020
 Die erste Grafik zeigt die Anzahl Gestorbener in Deutschland der letzten zehn Jahren, normalisiert pro 100,000 Einwohner:
+
 ![Yearly](charts/yearly_2011-2020.png)
 
 2020 hatte die höchste Sterblichkeit der letzten zehn Jahre. 
@@ -16,6 +17,7 @@ Für beide Werte wurden also Schätzungen des Statistischen Bundesamtes herangez
 
 ## Monatssterblichkeit 2011-2020
 Diese Grafik zeigt die durchschnittlichen täglichen Sterbezahlen der letzten zehn Jahre, für jeden Monat, ebenfalls pro 100,000 Einwohner:
+
 ![Monthly](charts/monthly_2011-2020.png)
 
 Zu erkennen ist, dass wir in den vergangenen zehn Jahren immer wieder erhebliche Übersterblichkeiten in den Monaten Januar bis März hatten.
@@ -31,6 +33,7 @@ Verglichen mit dem Vorjahr 2019 sind die Steigerungen in den letzten vier Monate
 
 ## Abweichung vom Mittel 1950-2020
 Für dieses Schaubild wurde die mittlere monatliche Abweichung eines jeden Jahres berechnet:
+
 ![Deviation](charts/deviation_1950-2020.png)
 
 Es wurde, für jedes Jahr, der durchschnittliche Monatswert ermittelt.
@@ -50,6 +53,7 @@ Das Schaubild legt auch nahe, dass es, spätestens ab 2010, einen generellen Tre
 ## Monatssterblichkeit ausgewählter Jahre
 Basierend auf dem letzten Schaubild, wurden für diese Grafik sieben Jahre ausgewählt,
 die eine besonders hohe Volatilität aufwiesen und mit dem Jahr 2020 verglichen:
+
 ![Selection](charts/selected_years.png)
 
 Es ist zu sehen, dass wir auch in der Vergangenheit teilweise erhebliche Übersterblichkeiten in einzelnen Monaten hatten.
